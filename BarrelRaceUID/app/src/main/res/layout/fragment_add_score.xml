@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="stateVisible|adjustResize"
+    tools:context="com.example.swaroop.barrelraceuid.app.AddScore$PlaceholderFragment"
+    android:background="#ffa1deff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffa1deff">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/trophy1"
+            android:layout_weight="0.5"
+            android:layout_gravity="top" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/scoreView"
+            android:background="#ff49e3ff"
+            android:layout_weight="0.25"
+            android:gravity="center|center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffa1deff"
+            android:weightSum="1"
+            android:layout_weight="1">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/firstName"
+                android:hint="Please Enter Your Name!!!!"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/firstNameImg"
+                android:src="@drawable/horse" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

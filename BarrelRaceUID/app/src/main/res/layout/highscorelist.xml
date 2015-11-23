@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffcfff00">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/ContactListImage"
+        android:src="@drawable/horse"
+        android:background="#ffc7ff00" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Swaroop Pal"
+            android:id="@+id/NameListView"
+            android:typeface="serif"
+            android:background="#ff00ff4a"
+            android:height="60dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="4697896498"
+            android:id="@+id/ScoreListView"
+            android:layout_weight="0.5"
+            android:typeface="serif"
+            android:background="#ff00ff92"
+            android:autoText="false"
+            android:height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
